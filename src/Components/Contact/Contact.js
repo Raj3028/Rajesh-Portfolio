@@ -26,12 +26,12 @@ function Contact() {
     const config = {
       SecureToken: "a4587958-816e-4932-92d7-edc5eea168fb",
       To: 'rajeshkumarsahoo006@gmail.com',
-      From: email,
+      From: 'rajeshkumarsahoo425@gmail.com',
       Subject: "This is the form my PortFolio!",
-      Body: "Name:" + name
-        + "<br> Email:" + email
-        + "<br> Phone No:" + phone
-        + "<br> Message:" + message
+      Body: "Name: " + name
+        + "<br> Email: " + email
+        + "<br> Phone No: " + phone
+        + "<br> Message: " + message
 
       // `${name} connected to you over email. And the Email is '${email} \n Phone: ${phone} \n Body: ${message}'`
     }
